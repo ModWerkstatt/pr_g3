@@ -42,18 +42,42 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich.mtl", },
 									mesh = "msh/rad_vorne_lod0.msh",
 									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.17632007598876953125, 0, 0.65871036052703857421875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich.mtl", },
 									mesh = "msh/rad_mitte_v2_lod0.msh",
 									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.12108135223388671875, 0, 0.65871036052703857421875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich.mtl", },
 									mesh = "msh/rad_hinten_lod0.msh",
 									name = "a3",
@@ -296,12 +320,28 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich.mtl", },
 									mesh = "msh/rad_vorne_lod1.msh",
 									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.17632007598876953125, 0, 0.65871036052703857421875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich.mtl", },
 									mesh = "msh/rad_mitte_v2_lod1.msh",
 									name = "a2",
